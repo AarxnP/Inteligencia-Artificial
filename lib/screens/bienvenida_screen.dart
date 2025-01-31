@@ -102,7 +102,7 @@ class _ChatScreenState extends State<ChatScreen> {
                   final isBot = message['isBot'] ?? false;
                   return Container(
                     margin: EdgeInsets.symmetric(vertical: 5, horizontal: 10),
-                    alignment: isBot ? Alignment.centerRight : Alignment.centerLeft,
+                    alignment: isBot ? Alignment.centerLeft : Alignment.centerRight,
                     child: Container(
                       padding: EdgeInsets.all(10),
                       decoration: BoxDecoration(
